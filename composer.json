@@ -1,0 +1,32 @@
+{
+  "name": "temirkhan/dto-bundle",
+  "description": "DTO handler bundle for symfony projects",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "temirkhan",
+      "email": "temirkhan@nasukhov.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Temirkhan\\DataObjectBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Temirkhan\\DataObjectBundle\\": "test/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "symfony/dependency-injection": "^4.1|^5.0",
+    "symfony/http-kernel": "^4.1|^5.1",
+    "ext-json": "*",
+    "spatie/data-transfer-object": "^1.13|^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3"
+  }
+}
