@@ -1,6 +1,9 @@
 # dto-bundle
 DTO structures handler for symfony
 
+## NOTICE
+This package has been transfered to [https://github.com/vseinstrumentiru/dto-bundle](https://github.com/vseinstrumentiru/dto-bundle) and won't receive further updates.
+
 
 ## Installation
 
